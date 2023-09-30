@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% block title %}
+  {{ super() }} - {{ title }}
+{% endblock %}
+{% block content %}
+    <div class="cake">
+        <a href="/static/img/торт1.jpg">
+        <img src="/static/img/торт1.jpg" alt="фото" width="150"></a>
+        <p>шоколадный торт с кремом и ягодами, вкуснятина, пальчики оближешь</p>
+        <a href="/static/img/торт2.jpg">
+        <img src="/static/img/торт2.jpg" alt="фото" width="150"></a>
+        <p>тортик с печеньем, отличный вариант к небольшому чаепитию</p>
+        <a href="/static/img/торт3.jpg">
+        <img src="/static/img/торт3.jpg" alt="фото" width="150"></a>
+        <p>торт с цветами, что может быть лучше для сладкоежек и романтиков одновременно</p>
+    </div>
+{% endblock %}

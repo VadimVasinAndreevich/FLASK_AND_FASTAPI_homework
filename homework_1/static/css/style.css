@@ -1,0 +1,43 @@
+body {
+    background-color: aqua;
+}
+
+
+header,
+footer {
+    background-color: coral;
+    padding: 5px;
+    color: red;
+    font-size: 25px;
+    text-align: center;
+}
+
+nav {
+    margin: 5px;
+}
+
+nav a {
+    background-color: silver;
+    margin: 3px;
+    padding: 3px;
+    color: black;
+    text-decoration: none;
+    border-radius: 3px;
+    transition: 1s;
+}
+
+nav a:hover {
+    background-color: darkolivegreen;
+}
+
+img:hover {
+    outline: 2px solid red;
+}
+
+.firstP {
+    color: blue;
+}
+
+.main {
+    text-align: center;
+}
