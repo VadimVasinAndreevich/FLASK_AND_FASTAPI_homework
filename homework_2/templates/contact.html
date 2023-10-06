@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+{% block content %}
+    <form action="/login/" method="POST">
+        {% with messages = get_flashed_messages(with_categories=true) %}
+            {% if messages %}
+                {% for category, message in messages %}
+                    <div class="info_contact">
+                        {{ message }}
+                    </div>
+                {% endfor %}
+            {% endif %}
+        {% endwith %}
+        <input type="text" name="name" placeholder="Имя">
+        <br>
+        <input type="text" name="email" placeholder="Почта">
+        <br>
+        <input type="submit" value="Отправить">
+    </form>
+{% endblock %}

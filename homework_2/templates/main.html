@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% block title %}
+  {{ super() }} - {{ title }}
+{% endblock %}
+{% block content %}
+    <div class="main">
+        <a href="/static/img/мир.jpg"><img src="/static/img/мир.jpg" alt="Моё фото" width="100"></a>
+        <a href="/static/img/сладости.jpg"><img src="/static/img/сладости.jpg" alt="Моё фото" width="500"></a>
+        <a href="/static/img/сладостей.jpg"><img src="/static/img/сладостей.jpg" alt="Моё фото" width="100"></a>
+    </div>
+{% endblock %}
