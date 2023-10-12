@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+{% block content %}
+    <div class="info_exit">
+        <h3>Добро пожаловать, {{ session['name'] }}!</h3>
+    </div>
+    <form action="/login/" method="get">
+        <input type="submit" value="выход">
+    </form>
+{% endblock %}

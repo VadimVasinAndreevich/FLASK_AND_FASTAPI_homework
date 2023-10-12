@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="/static/css/style.css">
+    <title>
+    {% block title %}
+        Магазин сладостей
+    {% endblock %}
+    </title>
+</head>
+<body>
+<div class="main">
+    <h3>
+        <a href="/">.....Главная.....</a>
+        <a href="/register/">.....Регистрация.....</a>
+        <a href="/login/">.....Войти.....</a>
+        <a href="/name/">.....Контактные данные.....</a>
+        <a href="/candy/">.....Леденцы.....</a>
+        <a href="/ice_cream/">.....Мороженное.....</a>
+        <a href="/cake/">.....Тортики.....</a>
+    </h3>
+
+{% block content %}
+    Страница не заполнена
+{% endblock %}
+
+    <div class="row fixed-bottom modal-footer">
+        <hr>
+        <p>Все права защищены &copy;</p>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% block title %}
+  {{ super() }} - {{ title }}
+{% endblock %}
+{% block content %}
+    <div class="candy">
+        <a href="/static/img/карамелька1.jpg">
+        <img src="/static/img/карамелька1.jpg" alt="фото" width="150"></a>
+        <p>карамельная радость, вызывает улыбку на лице</p>
+        <a href="/static/img/карамелька2.jpg">
+        <img src="/static/img/карамелька2.jpg" alt="фото" width="150"></a>
+        <p>восхитительный вкус карамелек не оставит равнодушным даже взрослого</p>
+        <a href="/static/img/карамелька3.jpg">
+        <img src="/static/img/карамелька3.jpg" alt="фото" width="150"></a>
+        <p>восхитительный вкус леденец на палочке, возьми и погрузись в мир наслаждений</p>
+    </div>
+{% endblock %}

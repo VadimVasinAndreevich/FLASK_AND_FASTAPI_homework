@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% block title %}
+  {{ super() }} - {{ title }}
+{% endblock %}
+{% block content %}
+    {% for persone in persones %}
+        <h2>{{ persone.name }}</h2>
+        <h3>{{ persone.patronymic }}</h3>
+        <h3>{{ persone.surname }}</h3>
+        <p>{{ persone.position }}</p>
+        <p>{{ persone.mail }}</p>
+        <p>{{ persone.phone }}</p>
+        <br>
+    {% endfor %}
+{% endblock %}
