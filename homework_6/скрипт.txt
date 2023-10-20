@@ -1,0 +1,2 @@
+uvicorn homework_6.main:app --reload
+
